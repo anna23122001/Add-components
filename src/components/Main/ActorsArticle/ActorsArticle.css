@@ -1,0 +1,8 @@
+.actors-list-container{
+    display: flex;
+    justify-content: center;
+}
+.actors-list{
+    font-size: 28px;
+    color: #002800;
+}

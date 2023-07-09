@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    font-size: 22px;
+    font-weight: 350;
+    text-indent: 70px;
+    margin-left: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
