@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './ActorsArticle.css'
+import { nanoid } from 'nanoid';
 
 export class ActorsArticle extends Component {
   render() {
@@ -8,9 +9,9 @@ export class ActorsArticle extends Component {
       <>
       <h2>Список актеров</h2>
      <div className='actors-list-container'>
-      {this.props.actors.map((actor) => {
+      {actors.map((actor) => {
         return (
-          <p key={actor} className='actors-list'>{actor}</p>
+          <p key={nanoid()} className='actors-list'>{actor}</p>
         )
       })}
      </div>

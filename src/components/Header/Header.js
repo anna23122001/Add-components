@@ -9,7 +9,7 @@ export class Header extends Component {
       <>
       <h1>Чарли и шоколадная фабрика</h1>
     <div className='img-container'>
-      <img src={MyImage} className='my-image'/>
+      <img src={MyImage} alt='Movie image' className='my-image'/>
     </div>
       </>
     )
